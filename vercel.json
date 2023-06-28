@@ -1,8 +1,22 @@
 {
+    
     "functions": {
         "bot.js": {
             "memory": 1024,
             "maxDuration": 10
         }
-    }
-}
+    },
+    "version": 2,
+    "builds": [
+      {
+        "src": "bot.js",
+        "use": "@now/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "bot.js"
+      }
+    ]
+  }
