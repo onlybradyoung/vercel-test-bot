@@ -5,4 +5,4 @@ const bot = new Bot(process.env.BOT_TOKEN); // <-- Set your token in the vercel 
 
 console.log(bot.token);
 
-// bot.api.setWebhook(process.env.WEBHOOK);
+bot.api.setWebhook(process.env.WEBHOOK);
