@@ -4,12 +4,5 @@
       "memory": 1024,
       "maxDuration": 10
     }
-  },
-  "version": 2,
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "api/bot.js"
-    }
-  ]
+  }
 }
