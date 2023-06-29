@@ -1,16 +1,8 @@
 {
-    
-    "functions": {
-        "api/bot.js": {
-            "memory": 1024,
-            "maxDuration": 10
-        }
-    },
-    "version": 2,
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "api/bot.js"
-      }
-    ]
+  "functions": {
+    "api/bot.js": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
   }
+}
